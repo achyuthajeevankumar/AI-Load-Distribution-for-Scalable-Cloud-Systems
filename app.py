@@ -1351,12 +1351,11 @@ def initialize_database():
     except Exception as e:
         print(f"❌ Database initialization error: {e}")
 
+# Initialize database and ML models at startup
+initialize_database()
+
 if __name__ == '__main__':
     print("🚀 Starting Advanced AI/ML-Powered Load Distribution System...")
-    print(f"📁 Working directory: {os.getcwd()}")
-
-    # Initialize database and ML models
-    initialize_database()
 
     print("✅ Database and ML models initialized")
     print("🌐 Server starting...")
