@@ -1,17 +1,8 @@
 Flask==3.0.3
 Flask-SQLAlchemy==3.1.1
-<<<<<<< HEAD
 Flask-Migrate==4.1.0
 Flask-CORS==5.0.0
 Werkzeug==3.1.3
-numpy==1.24.3
-scikit-learn==1.3.0
-gunicorn==23.0.0
-=======
-Flask-Migrate==4.0.7
-Flask-CORS==4.0.1
-Werkzeug==3.0.3
 numpy==1.26.4
 scikit-learn==1.4.2
-gunicorn==21.2.0
->>>>>>> a00884bf11b5e8e286317be6a7c63574a960a822
+gunicorn==23.0.0
